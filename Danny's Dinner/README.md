@@ -4,7 +4,7 @@
 
 The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
 
-# 🗂️ Contents
+## 🗂️ Contents
 
 - Overview
 
