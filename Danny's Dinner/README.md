@@ -6,11 +6,11 @@ The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
 
 # 🗂️ Contents
 
--- **Overview**
+- Overview
 
--- **Entity Relationship Diagram (ERD)**
+- Entity Relationship Diagram (ERD)
 
--- **Business Questions with Solutions**
+- Business Questions with Solutions
 
 ## Overview
 
