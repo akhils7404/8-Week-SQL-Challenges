@@ -6,8 +6,8 @@ The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
 
 # 🗂️ Contents
 
-1. Overview
+1. **Overview**
 
-2. Entity Relationship Diagram (ERD)
+2. **Entity Relationship Diagram (ERD)**
 
-3. Business Questions with Solutions
+3. **Business Questions with Solutions**
