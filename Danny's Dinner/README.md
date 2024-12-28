@@ -31,7 +31,7 @@ Check out the problem statement given in the Case Study and find the solutions t
 
 **All Set!!! Let's Begin**
 
-**1.What is the total amount each customer spent at the restaurant?**
+**1. What is the total amount each customer spent at the restaurant?**
 
 ![image](https://github.com/user-attachments/assets/7389e461-a3a0-4fd9-9099-08869975563b)
 
@@ -44,3 +44,22 @@ Customer 'A' spent the highest $76
 Customer 'B' spent $74
 
 Customer 'C' spent $36
+
+***
+
+**2. How many days has each customer visited the restaurant?**
+
+![image](https://github.com/user-attachments/assets/9bd8fc0a-ea59-4b7f-b5e8-91e150839408)
+
+**Output**
+
+![image](https://github.com/user-attachments/assets/63608a13-2b46-4519-ba17-01022eccc481)
+
+Customer 'A' visited 4 times
+
+Customer 'B' visited 6 times
+
+Customer 'C' visited 2 times
+
+***
+
