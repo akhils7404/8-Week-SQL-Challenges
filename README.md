@@ -6,3 +6,8 @@ It demonstrates my proficiency in SQL query writing, problem-solving abilities, 
 
 Special thanks to [Data with Danny](https://www.linkedin.com/company/datawithdanny/) for creating these insightful and engaging SQL case studies! 👋🏻
 
+# 🗂️ Contents
+
+The case studies listed in this challenge are mentioned below:
+
+Case Study#1: Danny's Dinner
