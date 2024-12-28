@@ -15,7 +15,7 @@ The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
  ***
 
 ## Overview
-
+What is the total amount each customer spent at the restaurant?
 Check out the problem statement given in the Case Study and find the solutions to the questions so that Danny can decide whether he should expand the existing customer loyalty program or stick with the current plan. In short, we have to analyze the Danny's Dinner business model using SQL queries.
 
 ***
@@ -31,3 +31,16 @@ Check out the problem statement given in the Case Study and find the solutions t
 
 **All Set!!! Let's Begin**
 
+**1.What is the total amount each customer spent at the restaurant?**
+
+![image](https://github.com/user-attachments/assets/7389e461-a3a0-4fd9-9099-08869975563b)
+
+**Output**
+
+![image](https://github.com/user-attachments/assets/a52dba8c-aa54-4ae3-8424-c1f9b2b28ebb)
+
+Customer 'A' spent the highest $76
+
+Customer 'B' spent $74
+
+Customer 'C' spent $36
