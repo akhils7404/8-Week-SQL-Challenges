@@ -10,4 +10,4 @@ Special thanks to [Data with Danny](https://www.linkedin.com/company/datawithdan
 
 The case studies listed in this challenge are mentioned below:
 
-1. [Case Study#1: Danny's Dinner]()
+1. [Case Study#1: Danny's Dinner](https://github.com/akhils7404/8-Week-SQL-Challenges/blob/main/Danny's%20Dinner/README.md)
