@@ -14,4 +14,4 @@ The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
 
 ## Overview
 
-Check out the problem statement given in the Case Study and find the solutions to the question so that Danny can decide whether he should expand the existing customer loyalty program or stick with the current plan. In short, we have to analyze the Danny's Dinner business model using SQL queries.
+Check out the problem statement given in the Case Study and find the solutions to the questions so that Danny can decide whether he should expand the existing customer loyalty program or stick with the current plan. In short, we have to analyze the Danny's Dinner business model using SQL queries.
