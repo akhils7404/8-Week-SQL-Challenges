@@ -15,3 +15,7 @@ The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
 ## Overview
 
 Check out the problem statement given in the Case Study and find the solutions to the questions so that Danny can decide whether he should expand the existing customer loyalty program or stick with the current plan. In short, we have to analyze the Danny's Dinner business model using SQL queries.
+
+## Entity Relationship Diagram (ERD)
+
+![image](https://github.com/user-attachments/assets/73f7e956-7101-4aaf-aef6-840e8bc2f6ae)
