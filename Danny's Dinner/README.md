@@ -22,8 +22,11 @@ Check out the problem statement given in the Case Study and find the solutions t
 
 ## Entity Relationship Diagram (ERD)
 
-![image](https://github.com/user-attachments/assets/8e85424c-6be1-4f13-b76a-4f5eea03e365)
+![image](https://github.com/user-attachments/assets/b4517006-89ff-40a6-9c16-e7221a2374e2)
 
 ***
 
 ## Business Questions with Solutions
+
+All Set!!! Let's Begin
+
