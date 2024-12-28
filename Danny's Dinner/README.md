@@ -1,3 +1,4 @@
 # 🍣 Case Study#1: DANNY'S DINNER
 
-![image](https://github.com/user-attachments/assets/26a9c1f8-5196-4e72-8628-fcc6262bb4b1)
+![image](https://github.com/user-attachments/assets/ff8780d7-d7e7-4d81-a9e4-472c5cef4c65)
+
