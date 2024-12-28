@@ -18,4 +18,5 @@ Check out the problem statement given in the Case Study and find the solutions t
 
 ## Entity Relationship Diagram (ERD)
 
-![image](https://github.com/user-attachments/assets/73f7e956-7101-4aaf-aef6-840e8bc2f6ae)
+![image](https://github.com/user-attachments/assets/8e85424c-6be1-4f13-b76a-4f5eea03e365)
+
