@@ -8,9 +8,9 @@ The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
 
 - [Overview](#overview)
 
-- [Entity Relationship Diagram (ERD)](#Entity Relationship Diagram (ERD))
+- [Entity Relationship Diagram](#entity relationship diagram)
 
-- [Business Questions with Solutions](#Business Questions with Solutions)
+- [Business Questions with Solutions](#business questions with solutions)
 
  ***
 
@@ -20,7 +20,7 @@ Check out the problem statement given in the Case Study and find the solutions t
 
 ***
 
-## Entity Relationship Diagram (ERD)
+## Entity Relationship Diagram
 
 ![image](https://github.com/user-attachments/assets/e34b7a9e-4edd-406e-9417-3d71fccc5983)
 
