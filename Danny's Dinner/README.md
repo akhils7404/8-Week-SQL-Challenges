@@ -6,11 +6,11 @@ The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
 
 ## 🗂️ Contents
 
-- Overview
+- [Overview](#overview)
 
-- Entity Relationship Diagram (ERD)
+- [Entity Relationship Diagram (ERD)](#Entity Relationship Diagram (ERD))
 
-- Business Questions with Solutions
+- [Business Questions with Solutions](#Business Questions with Solutions)
 
  ***
 
@@ -163,6 +163,20 @@ Customer 'B' total purchase count is 3 and amount spent is $40 before he/she bec
 Customer 'A' have 860 points
 Customer 'B' have 940 points
 Customer 'C' have 360 points
+
+***
+
+**10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi 
+  how many points do customer A and B have at the end of January?**
+
+![image](https://github.com/user-attachments/assets/dff810fa-85ed-4948-94f4-fe450a250eb7)
+
+**Output
+
+![image](https://github.com/user-attachments/assets/9702e75f-7391-4ab1-927f-4fb0a0bbf24d)
+
+Customer 'A' will have the highest 1370 points at the end of January
+Customer 'B' will have 820 points at the end of January
 
 ***
 
