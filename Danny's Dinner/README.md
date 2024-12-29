@@ -5,7 +5,9 @@
 The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
 
 Database Engine Used: **PostgreSQL**
+
 Query Language Used: **SQL**
+
 IDE Used: **pgAdmin**
 
 ## 🗂️ Contents
