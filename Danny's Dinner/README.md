@@ -181,7 +181,9 @@ Customer 'B' will have 820 points at the end of January
 
 **Bonus Questions**
 
-**11. Recreate the following table output using the available data:**
+**11. The following questions are related creating basic data tables that Danny and his team can use to quickly derive insights without needing to join the underlying tables using SQL.**
+
+**Recreate the following table output using the available data:Recreate the following table output using the available data:**
 
 ![image](https://github.com/user-attachments/assets/a64994e2-7455-4fc1-8034-bb0d1be05a0a)
 
@@ -193,7 +195,9 @@ Customer 'B' will have 820 points at the end of January
 
 ***
 
-**12. Rank All The Things**
+**12. Rank All The Things
+Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member 
+purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.**
 
 ![image](https://github.com/user-attachments/assets/d2bc6f10-dc5d-4adb-bb3c-cac8e47956f6)
 
