@@ -22,8 +22,7 @@ Check out the problem statement given in the Case Study and find the solutions t
 
 ## Entity Relationship Diagram
 
-![image](https://github.com/user-attachments/assets/e34b7a9e-4edd-406e-9417-3d71fccc5983)
-
+![image](https://github.com/user-attachments/assets/1c85c229-d8a3-436a-95de-d16b3954555e)
 
 ***
 
