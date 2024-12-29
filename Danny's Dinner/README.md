@@ -8,9 +8,9 @@ The case study is taken from [here](https://8weeksqlchallenge.com/case-study-1/)
 
 - [Overview](#overview)
 
-- [Entity Relationship Diagram](#entity relationship diagram)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
 
-- [Business Questions with Solutions](#business questions with solutions)
+- [Business Questions with Solutions](#business-questions-with-solutions)
 
  ***
 
