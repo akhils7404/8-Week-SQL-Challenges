@@ -19,3 +19,11 @@ IDE Used: **pgAdmin**
    - B. Runner and Customer Experience
    - C. Ingredient Optimisation
    - D. Pricing and Ratings.
+
+***
+
+## Introduction
+
+This time Danny has put his eyes on a new business model with pizza as the new item. Danny was scrolling through his Instagram feed when something really caught his eye - “80s Retro Styling and Pizza Is The Future!”. Danny decided that he is going to sell pizzas from now on, but he wanted a change. So he decided that he would uberize his pizza - that's what makes it Pizza Runner. This case study would involve business questions asked by Danny that requires solutions so tha he can better direct his runners and optimise Pizza Runner’s operations.
+
+***
