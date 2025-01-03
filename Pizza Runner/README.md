@@ -16,4 +16,6 @@ IDE Used: **pgAdmin**
 - Solutions
    - Data Cleaning and Transformation
    - A. Pizza Metrics
-   - B.  
+   - B. Runner and Customer Experience
+   - C. Ingredient Optimisation
+   - D. Pricing and Ratings.
