@@ -33,3 +33,7 @@ This time Danny has put his eyes on a new business model with pizza as the new i
 The dataset consists of 6 tables - runner_orders, runners, customer_orders, pizza_names, pizza_recipes and pizza_toppings.
 
 ![image](https://github.com/user-attachments/assets/0f47259c-a2ba-47d8-b0d6-b475ef2d5676)
+
+***
+
+## Data Cleaning and Transformation
