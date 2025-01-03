@@ -15,5 +15,5 @@ IDE Used: **pgAdmin**
 - Entity Relationship Diagram
 - Solutions
    - Data Cleaning and Transformation
-   A. Pizza Metrics
-   B. 
+   - A. Pizza Metrics
+   - B.  
