@@ -37,3 +37,13 @@ The dataset consists of 6 tables - runner_orders, runners, customer_orders, pizz
 ***
 
 ## 🧹 Data Cleaning and Transformation
+
+Table: customer_orders
+
+Looking at the `customer_orders` table we can see that there are some changes that need to be done.
+- the column `exclusions` have blank values or blank spaces and also contains 'null' in the form of string entered in them.
+- the column `extras` also have blank values or blank spaces and also contains 'null' in the form of string entered in them.
+
+![image](https://github.com/user-attachments/assets/c8c0ccc8-2a1e-484e-861b-2aa47bbe4f30)
+
+
