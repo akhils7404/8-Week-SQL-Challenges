@@ -12,4 +12,4 @@ The case studies listed in this challenge are mentioned below:
 
 1. [Case Study#1: Danny's Dinner](https://github.com/akhils7404/8-Week-SQL-Challenges/blob/main/Danny's%20Dinner/README.md)
 
-2. [Case Study#2: Pizza Runner]
+2. [Case Study#2: Pizza Runner](https://github.com/akhils7404/8-Week-SQL-Challenges/blob/main/Pizza%20Runner/README.md)
