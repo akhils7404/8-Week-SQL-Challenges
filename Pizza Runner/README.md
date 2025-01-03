@@ -71,3 +71,6 @@ Looking at the `runner_orders` table we can see that there are some changes that
 - In `distance` column, keep only the numeric value. Trim the rest and replace the null values.
 - In `duration` column, keep only the numeric value. Trim the rest and replace the null values.
 - In `cancellation` column, replace 'null' values and blank values or missing values.
+
+![image](https://github.com/user-attachments/assets/d16fb410-aa60-4bc9-9db5-6b3cb8c6111a)
+
