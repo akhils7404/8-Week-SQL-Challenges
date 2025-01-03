@@ -41,14 +41,14 @@ The dataset consists of 6 tables - runner_orders, runners, customer_orders, pizz
 Table: **customer_orders**
 
 Looking at the `customer_orders` table we can see that there are some changes that need to be done.
-- the column `exclusions` have blank values or blank spaces and also contains 'null' in the form of string entered in them.
-- the column `extras` also have blank values or blank spaces and also contains 'null' in the form of string entered in them.
+- the column `exclusions` have blank values or contains 'null' in the form of string entered in them.
+- the column `extras` also have blank values or contains 'null' in the form of string entered in them.
 
 ![image](https://github.com/user-attachments/assets/c8c0ccc8-2a1e-484e-861b-2aa47bbe4f30)
 
 We can clean both of these columns. The steps involved in this process are as follows:
 - Create a temporary table so that original table remains retained. It is considered as a best pratice to make changes in a temporary table rather than making changes in the original table.
-- Remove null values in exlusions and extras columns and replace with blank space ' '.
+- Remove null values in exlusions and extras columns and replace them with blank space ' '.
 
 ````sql
 CREATE TEMP TABLE customer_orders_temp AS
@@ -60,4 +60,7 @@ CREATE TEMP TABLE customer_orders_temp AS
   order_time FROM customer_orders;
 ````
 
-This is what the temporary table will look like. Now, we will be using this table for analyzing the case studu furthur
+This is what the temporary table will look like. Now, we will be using this table for analyzing the case study furthur.
+
+![image](https://github.com/user-attachments/assets/e86c5590-f598-4cb9-b1bb-c8331cc6f5db)
+
