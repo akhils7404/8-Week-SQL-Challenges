@@ -38,7 +38,7 @@ The dataset consists of 6 tables - runner_orders, runners, customer_orders, pizz
 
 ## 🧹 Data Cleaning and Transformation
 
-Table: customer_orders
+Table: **customer_orders**
 
 Looking at the `customer_orders` table we can see that there are some changes that need to be done.
 - the column `exclusions` have blank values or blank spaces and also contains 'null' in the form of string entered in them.
@@ -46,4 +46,6 @@ Looking at the `customer_orders` table we can see that there are some changes th
 
 ![image](https://github.com/user-attachments/assets/c8c0ccc8-2a1e-484e-861b-2aa47bbe4f30)
 
-
+We can clean both of these columns. The steps involved in this process are as follows:
+- Create a temporary table so that original table remains retained. It is considered as a best pratice to make changes in a temporary table rather than making changes in the original table.
+- Remove null values in exlusions and extras columns and replace with blank space ' ' or a null value.
