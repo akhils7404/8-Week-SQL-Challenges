@@ -48,4 +48,16 @@ Looking at the `customer_orders` table we can see that there are some changes th
 
 We can clean both of these columns. The steps involved in this process are as follows:
 - Create a temporary table so that original table remains retained. It is considered as a best pratice to make changes in a temporary table rather than making changes in the original table.
-- Remove null values in exlusions and extras columns and replace with blank space ' ' or a null value.
+- Remove null values in exlusions and extras columns and replace with blank space ' '.
+
+````sql
+CREATE TEMP TABLE customer_orders_temp AS
+  SELECT order_id, customer_id, pizza_id,
+  CASE WHEN exclusions IS NULL OR exclusions LIKE 'null' THEN ' '
+  ELSE exclusions END AS exclusions,
+  CASE WHEN extras IS NULL OR extras LIKE 'null' THEN ' '
+  ELSE extras END AS extras,
+  order_time FROM customer_orders;
+````
+
+This is what the temporary table will look like. Now, we will be using this table for analyzing the case studu furthur
