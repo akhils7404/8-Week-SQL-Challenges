@@ -38,11 +38,11 @@ The dataset consists of 6 tables - runner_orders, runners, customer_orders, pizz
 
 ## 🧹 Data Cleaning and Transformation
 
-Table: **customer_orders**
+**Table: customer_orders**
 
 Looking at the `customer_orders` table we can see that there are some changes that need to be done.
-- the column `exclusions` have blank values or contains 'null' in the form of string entered in them.
-- the column `extras` also have blank values or contains 'null' in the form of string entered in them.
+- the column `exclusions` have blank values or contains 'null' (in string form) entered in them.
+- the column `extras` also have blank values or contains 'null' (in string form) entered in them.
 
 ![image](https://github.com/user-attachments/assets/c8c0ccc8-2a1e-484e-861b-2aa47bbe4f30)
 
@@ -60,7 +60,14 @@ CREATE TEMP TABLE customer_orders_temp AS
   order_time FROM customer_orders;
 ````
 
-This is what the temporary table will look like. Now, we will be using this table for analyzing the case study furthur.
+This is what the temporary table will look like. Moving forward, we will using this table in queries.
 
 ![image](https://github.com/user-attachments/assets/e86c5590-f598-4cb9-b1bb-c8331cc6f5db)
 
+**Table: runner_orders**
+
+Looking at the `runner_orders` table we can see that there are some changes that need to be done.
+- In `pickup_time` column, there are 'null' values present in it. Repalce them.
+- In `distance` column, keep only the numeric value. Trim the rest and replace the null values.
+- In `duration` column, keep only the numeric value. Trim the rest and replace the null values.
+- In `cancellation` column, replace 'null' values and blank values or missing values.
