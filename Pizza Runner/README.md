@@ -48,7 +48,7 @@ Looking at the `customer_orders` table we can see that there are some changes th
 
 We can clean both of these columns. The steps involved in this process are as follows:
 - Create a temporary table so that original table remains retained. It is considered as a best pratice to make changes in a temporary table rather than making changes in the original table.
-- Remove null values in exlusions and extras columns and replace them with blank space ' '.
+- Replace the 'null' value or the blank value with NULL value.
 
 ````sql
 CREATE TEMP TABLE customer_orders_temp AS
@@ -60,17 +60,47 @@ CREATE TEMP TABLE customer_orders_temp AS
   order_time FROM customer_orders;
 ````
 
-This is what the temporary table will look like. Moving forward, we will using this table in queries.
+This is what I call a clean table. Moving forward, we will using this table in queries.
 
 ![image](https://github.com/user-attachments/assets/e86c5590-f598-4cb9-b1bb-c8331cc6f5db)
 
 **Table: runner_orders**
 
 Looking at the `runner_orders` table we can see that there are some changes that need to be done.
-- In `pickup_time` column, there are 'null' values present in it. Repalce them.
-- In `distance` column, keep only the numeric value. Trim the rest and replace the null values.
-- In `duration` column, keep only the numeric value. Trim the rest and replace the null values.
-- In `cancellation` column, replace 'null' values and blank values or missing values.
+- In `pickup_time` column, there are 'null' values or blank values present in it. Repalce them.
+- In `distance` column, keep only the numeric value. Trim the rest and replace the 'null' or blank values.
+- In `duration` column, keep only the numeric value. Trim the rest and replace the 'null' or blank values.
+- In `cancellation` column, replace 'null' values or blank values.
 
 ![image](https://github.com/user-attachments/assets/d16fb410-aa60-4bc9-9db5-6b3cb8c6111a)
 
+We can clean this data by this query:
+````sql
+CREATE TEMP TABLE runner_orders_temp AS SELECT order_id, runner_id,
+  CASE WHEN pickup_time LIKE 'null' OR pickup_time = '' THEN NULL
+  else pickup_time END AS pickup_time,
+  CASE WHEN distance LIKE 'null' OR distance = '' THEN NULL
+  WHEN distance LIKE '%km' THEN TRIM('km' FROM distance)
+  ELSE distance END AS distance,
+  CASE WHEN duration LIKE 'null' OR duration = '' THEN NULL
+  WHEN duration LIKE '%minutes' THEN TRIM('minutes' FROM duration)
+  WHEN duration LIKE '%minute' THEN TRIM('minute' FROM duration)
+  WHEN duration LIKE '%mins' THEN TRIM('mins' FROM duration)
+  ELSE duration END AS duration,
+  CASE WHEN cancellation LIKE 'null' OR cancellation = '' THEN NULL
+  ELSE cancellation END AS cancellation FROM runner_orders;
+````
+
+The datatype of columns: pickup_time, distance and duration are varchar, which don't match with the data they contain. SO, we need to update the datatypes
+for each column as well. The query to do it is:
+
+````sql
+ALTER TABLE runner_orders_temp
+  ALTER COLUMN pickup_time TYPE TIMESTAMP USING pickup_time::timestamp,
+  ALTER COLUMN distance TYPE FLOAT USING distance::float,
+  ALTER COLUMN duration TYPE INT USING duration::int;
+````
+
+![image](https://github.com/user-attachments/assets/35b205c7-f73c-4273-8c77-94c7577409cb)
+
+***
