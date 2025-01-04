@@ -91,7 +91,7 @@ CREATE TEMP TABLE runner_orders_temp AS SELECT order_id, runner_id,
   ELSE cancellation END AS cancellation FROM runner_orders;
 ````
 
-The datatype of columns: pickup_time, distance and duration are varchar, which don't match with the data they contain. SO, we need to update the datatypes
+The datatype of columns: pickup_time, distance and duration are varchar, which don't match with the data they contain. So, we need to update the datatypes
 for each column as well. The query to do it is:
 
 ````sql
@@ -100,6 +100,8 @@ ALTER TABLE runner_orders_temp
   ALTER COLUMN distance TYPE FLOAT USING distance::float,
   ALTER COLUMN duration TYPE INT USING duration::int;
 ````
+
+Now, the table looks perfectly fine. Mission Data Cleaning and Transformation is successfull. We can proceed with this table for furthur analysis.
 
 ![image](https://github.com/user-attachments/assets/35b205c7-f73c-4273-8c77-94c7577409cb)
 
